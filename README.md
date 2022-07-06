@@ -2,7 +2,7 @@
 
 - AVATAR vous donne le planing de vos series preférer sur le site bétaseries
 - obligatoire : créer un compte sur le site : https://www.betaseries.com/
-- obligatoire ajouter ou créer une bibliotheque vos series préferer 
+- obligatoire ajouter ou créer une bibliotheque de vos series préferer 
 - Documentation de l'API : https://www.betaseries.com/api/docs
 - ensuite demander des clés ici : https://www.betaseries.com/api/
 - reseigne vos clés sur le fichier js
