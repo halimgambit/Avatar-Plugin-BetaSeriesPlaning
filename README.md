@@ -8,7 +8,7 @@
 - reseigne vos clés sur le fichier js
 - 
 var cle_api = '86c73c03bxxx';
-	var token = '7c1431ca6xxx';
+var token = '7c1431ca6xxx';
 	fetch('https://api.betaseries.com/planning/member?v=3.0&key=' + cle_api + '&token=' + token, {
         'headers': {
         'X-BetaSeries-Version': '3.0',
