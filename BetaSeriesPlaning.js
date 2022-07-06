@@ -9,12 +9,12 @@ exports.action = function(data, callback){
 
 function betaseries (data, client) {
    
-	var cle_api = '86c73c03b136';
-	var token = '7c1431ca63c1';
+	var cle_api = '86c73c03bxxx';
+	var token = '7c1431ca6xxx';
 	fetch('https://api.betaseries.com/planning/member?v=3.0&key=' + cle_api + '&token=' + token, {
         'headers': {
         'X-BetaSeries-Version': '3.0',
-        'X-BetaSeries-Key': "86c73c03b136"
+        'X-BetaSeries-Key': "86c73c03bxxx"
 }
     })
     .then(response => response.json())
@@ -58,35 +58,3 @@ function setClient(data){
     client = data.action.setRoom;
     return client;
 }
-
-/*
-
-https://api.betaseries.com/planning/member?v=3.0&key=86c73c03b136&token=7c1431ca63c1
-
-json.episodes[2].show.title + ":saison." + json.episodes[2].season + ":épisode." + json.episodes[2].episode + ":l'e:" + json.episodes[2].date + ":" + ":" +
-	json.episodes[3].show.title + ":saison." + json.episodes[3].season + ":épisode." + json.episodes[3].episode + ":l'e:" + json.episodes[3].date + ":" + ":" +
-	json.episodes[4].show.title + ":saison." + json.episodes[4].season + ":épisode." + json.episodes[4].episode + ":l'e:" + json.episodes[4].date + ":" + ":" +
-	json.episodes[5].show.title + ":saison." + json.episodes[5].season + ":épisode." + json.episodes[5].episode + ":l'e:" + json.episodes[5].date + ":" + ":" +
-	json.episodes[6].show.title + ":saison." + json.episodes[6].season + ":épisode." + json.episodes[6].episode + ":l'e:" + json.episodes[6].date + ":" + ":" +
-	json.episodes[7].show.title + ":saison." + json.episodes[7].season + ":épisode." + json.episodes[7].episode + ":l'e:" + json.episodes[7].date + ":" + ":" +
-	json.episodes[8].show.title + ":saison." + json.episodes[8].season + ":épisode." + json.episodes[8].episode + ":l'e:" + json.episodes[8].date + ":" + ":" +
-	json.episodes[9].show.title + ":saison." + json.episodes[9].season + ":épisode." + json.episodes[9].episode + ":l'e:" + json.episodes[9].date , data.client, function(){
-	Avatar.Speech.end(data.client);
-	});
-
-
-  fetch("https://api.betaseries.com/planning/member?v=3", {
-        "headers": {
-        "accept": "application/json",
-        "authorization": "Bearer 7c1431ca63c1",
-        "x-betaseries-key": "f8a7025898bc",
-        "x-betaseries-version": "3.0"
-    },
-        "method": "GET"
-    })
-    .then(response => response.json())
-        .then(response2 => {
-        console.log(response2)
-        })
-        
-		*/
