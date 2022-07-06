@@ -11,7 +11,7 @@
 				"Salon": 60,
 				"Cuisine": 50
 			},
-			"rules": ["episode * betasery","series * betasery","betasery","series"]
+			"rules": ["episode * betasery","series * betasery","betasery","series","episode"]
 		}
 	}
 }
