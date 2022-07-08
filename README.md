@@ -5,7 +5,7 @@
 - obligatoire : créer un compte sur le site : https://www.betaseries.com/
 - obligatoire ajouter ou créer une bibliotheque de vos series préferer 
 - ensuite demander des clés ici : https://www.betaseries.com/api/
-- reseigne vos clés sur le fichier js
+- reseigner vos clés sur le fichier js
 var cle_api = '86c73c03bxxx';
 var token = '7c1431ca6xxx';
 
